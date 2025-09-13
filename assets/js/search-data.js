@@ -16,7 +16,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-я-і-діод-копайлот",
+        },{id: "post-про-паттерни-та-контекст",
+        
+          title: "Про паттерни та контекст",
+        
+        description: "розглядаємо суть паттернів у розробці на прикладі DTO",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/dto-pattern-and-context/";
+          
+        },
+      },{id: "post-gof-patterns",
+        
+          title: "GoF patterns",
+        
+        description: "рефлексія над класичними шаблонами проєктування",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/gof-revisited/";
+          
+        },
+      },{id: "post-я-і-діод-копайлот",
         
           title: "Я і -діод- копайлот",
         
