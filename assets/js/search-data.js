@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-про-паттерни-та-контекст",
+        },{id: "post-оцінка-в-сторіпоінтах",
+        
+          title: "Оцінка в сторіпоінтах",
+        
+        description: "Чому задача на 8 сторіпоінтів робиться не 2 тижні, а 3?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/estimation-in-story-points/";
+          
+        },
+      },{id: "post-про-паттерни-та-контекст",
         
           title: "Про паттерни та контекст",
         
